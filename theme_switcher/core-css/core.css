@@ -1,0 +1,131 @@
+/*
+    Document   : core
+    Created on : May 7, 2009, 5:15:43 AM
+    Author     : Rufoni2003
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+/*<!-- -->
+*/
+html,body {
+    margin-top: 3px;
+    padding:0;          /* Remove body margin/padding */
+    overflow: hidden;	/* Remove scroll bars on browser window */
+    font-size: 75%;
+    background: #ffffff url(../../images/main-bg.gif);
+}
+
+div#calendar{
+ margin: 0px auto;
+ font-size:12px;
+}
+div#timecal{
+ position:absolute;
+ bottom:5px;
+}
+
+.clr {
+    clear:both;
+}
+
+#mainContainer{
+    width:auto;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /*border: 5px solid;*/
+}
+#bodyContainer {
+    width:auto;
+    height: 99%;
+    padding: 2px;
+    overflow: auto;
+    /*border: 1px solid maroon;*/
+    
+}
+
+#sidebar {
+    position:relative;
+    float: left;
+    width: 200px;
+    height: 98%;
+    padding: 2px;
+    /*border: 1px solid;*/
+    
+    
+    
+}
+/*DOCK*/
+img {
+    border: none;
+}
+
+/* dock - top */
+.dock {
+    position: relative;
+    height: 50px;
+    text-align: center;
+}
+.dock-container {
+    position: absolute;
+    height: 50px;
+    background: url(../../images/dock-bg2.gif);
+    padding-left: 20px;
+}
+a.dock-item {
+    display: block;
+    width: 40px;
+    color: #000;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+    border: none;
+    margin: 5px 10px 0px;
+    width: 100%;
+}
+.dock-item span {
+    display: none;
+    padding-left: 20px;
+}
+
+/* dock2 - bottom */
+.dock-container2 {
+    position: absolute;
+    height: 50px;
+    background: url(../../images/dock-bg2.gif);
+    padding-left: 20px;
+}
+#dock2 {
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+}
+
+a.dock-item2 {
+    display: block;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    width: 40px;
+    color: #000;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+.dock-item2 span {
+    display: none;
+    padding-left: 20px;
+}
+.dock-item2 img {
+    border: none;
+    margin: 5px 10px 0px;
+    width: 100%;
+}
+
+

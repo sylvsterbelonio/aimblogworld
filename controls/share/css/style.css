@@ -1,0 +1,18 @@
+/* CSS Document */
+.share-btn-wrp {	list-style: none;	display: block;	margin: 5px;	padding: 5px;	width: 32px;	left: 0px;	position: fixed;	z-index:999999999999;	opacity:0.8;}
+.share-btn-wrp .button-wrap{	text-indent:-100000px;	width:32px;	height: 32px;	cursor:pointer;		z-index:1000000000000000000;	transition: width 0.1s ease-in-out;}
+.share-btn-wrp > .facebook{	background: url(images/share-icons.png) no-repeat -42px 0px;}
+.share-btn-wrp > .facebook:hover{	opacity:1;background: url(images/share-icons.png) no-repeat -4px -0px;	width:38px;}
+.share-btn-wrp > .twitter{	background: url(images/share-icons.png) no-repeat -42px -34px;}
+.share-btn-wrp > .twitter:hover{opacity:1;	background: url(images/share-icons.png) no-repeat -4px -34px;	width:38px;}
+.share-btn-wrp > .digg{	background: url(images/share-icons.png) no-repeat -42px -68px;}.share-btn-wrp > 
+.digg:hover{	opacity:1; background: url(images/share-icons.png) no-repeat -4px -68px;	width:38px;}
+.share-btn-wrp > .stumbleupon{	background: url(images/share-icons.png) no-repeat -42px -102px;}
+.share-btn-wrp > .stumbleupon:hover{opacity:1;	background: url(images/share-icons.png) no-repeat -4px -102px;	width:38px;}
+.share-btn-wrp > .delicious{	background: url(images/share-icons.png) no-repeat -42px -136px;}
+.share-btn-wrp > .delicious:hover{opacity:1;	background: url(images/share-icons.png) no-repeat -4px -136px;	width:38px;}
+.share-btn-wrp > .gplus{	background: url(images/share-icons.png) no-repeat -42px -170px;}
+.share-btn-wrp > .gplus:hover{opacity:1;	background: url(images/share-icons.png) no-repeat -4px -170px;	width:38px;}
+.share-btn-wrp > .email{	background: url(images/share-icons.png) no-repeat -42px -408px;}
+.share-btn-wrp > .email:hover{opacity:1;	background: url(images/share-icons.png) no-repeat -4px -408px;	width:38px;}
+@media all and (max-width: 699px) {	.share-btn-wrp{		width: 100%;		text-align: center;		position: fixed;		bottom: 1px;	}	.share-btn-wrp .button-wrap {		display: inline-block;		margin-left: -2px;		margin-right: -2px;	}}

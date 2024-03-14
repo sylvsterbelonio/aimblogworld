@@ -1,0 +1,326 @@
+/* CSS Document */
+.container-tab{
+width:100%;
+background-repeat:no-repeat;
+border-radius:0px;
+}
+
+.tabs{
+width:100%;
+}
+
+.tabs label {
+font-family: "PT Sans Narrow", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+	height: 40px;
+	position: relative;
+	padding: 0 20px;
+    float: left;
+	display: block;
+	width: auto;
+
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.3);
+    border-radius: 3px 3px 0 0;
+    box-shadow: 2px 0 2px rgba(0,0,0,0.1), -2px 0 2px rgba(0,0,0,0.1);
+}
+
+.tabs input:hover + label {
+		background-image: -moz-linear-gradient(blue,  yellow);	
+}
+
+.right-category
+
+.content div h1{
+font-family: "Arial Narrow", Arial Narrow, sans-serif;
+font-size:18px;
+line-height:60px;
+padding-left: 15px;
+}
+
+.content div p {
+font-family: "Arial Narrow", Arial Narrow, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: justify;
+	margin: 0px 0px 0 0;
+	color: #2d2d2d;
+	padding-left: 15px;
+  text-indent:45px;
+}
+.list-ui-li:before {
+    font-size:20px;
+    margin-right:10px;
+    content: "*";
+    color: red; /* or whatever color you prefer */
+}
+
+.list-ul{
+font-family: "Arial Narrow", Arial Narrow, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: justify;
+	margin: 20px 20px 0 0;
+	color: #2d2d2d;
+	padding-left: 15px;
+  text-indent:45px;
+	border-left: 8px solid rgba(<?=$rgb?> 0.8);
+	list-style:none;
+}
+.left-header{
+
+float:left;
+
+}
+
+.left-header h1{
+font-family: "Arial Narrow", Arial Narrow, sans-serif;
+background:rgba(0,0,0,0.5);
+font-size:24px;
+float:right;
+color:white;
+padding:5px 5px 10px 10px;
+
+}
+.left-header h1 span{
+font-size:12px;
+}
+.left-header div{
+font-size:24px;
+float:right;
+color:white;
+}
+
+.right-header{
+float:right;
+font-size:24px;
+float:right;
+color:white;
+padding:5px 5px 10px 10px;
+
+text-align:center;
+}
+.right-header h1{
+padding:0px;
+margin:10px 10px 0 0;
+background:transparent;
+font-size:45px;
+line-height:40px;
+}
+
+.like{
+  -moz-transition: all 0.3s;  
+  -webkit-transition: all 0.3s;  
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size:10px;background:#76aebe;
+  padding:2px 10px;
+  border-radius:5px;
+  color:white;
+  border:1px solid #1154c3
+}
+.like:hover{
+  cursor:pointer;
+  background:#1154c3;
+}
+.like-active{
+  background:#1154c3;
+}
+.love{
+  -moz-transition: all 0.3s;  
+  -webkit-transition: all 0.3s;  
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size:10px;
+  background:#fb899c;
+  padding:2px 10px;border-radius:5px;
+  color:white;
+  border:1px solid #e50e37
+}
+.love:hover{
+  cursor:pointer;
+  background:#e50e37;
+}
+.love-active{
+  background:#e50e37;
+}
+.share{
+  -moz-transition: all 0.3s;  
+  -webkit-transition: all 0.3s;  
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size:10px;background:#a2ff9b;
+  padding:2px 10px;border-radius:5px;
+  color:white;
+  border:1px solid #33d027
+}
+.share:hover{
+  cursor:pointer;
+  background:#33d027;
+}
+
+#cmdMinus{
+font-size:12px;border-radius:0px;border-top-left-radius:5px;border-bottom-left-radius:5px
+}
+#txtQuantity{
+text-align:center;border-radius:0px
+}
+#cmdPlus{
+font-size:12px;border-radius:0px;border-top-right-radius:5px;border-bottom-right-radius:5px
+}
+#cmdCard{
+font-size:12px
+}
+
+
+
+/* THIS is the 2nd CSS */
+
+
+.nav-tabs>li>a{
+font-size:12px;
+margin-right:2px;line-height:1.42857143;border:1px solid transparent;border-radius:4px 4px 0 0;
+font-family: "PT Sans Narrow", Arial, sans-serif;
+border-top-left-radius:5px;		
+border-top-right-radius:5px;	
+}
+
+.nav-tabs>li>a:hover{
+cursor:pointer; }
+
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{
+cursor:default;
+border-bottom-color:transparent
+}
+
+.image_description{
+font-size:14px;
+color:white;
+padding:10px 20px 10px 20px;
+position:absolute;
+background:rgba(0,0,0,.5);
+border-radius:5px;
+width:400px;
+margin-top:10px;
+z-index:1;
+}
+
+@media only screen and (max-width: 620px) {
+  .image_description{
+  width:90%;
+  }
+
+}
+
+.image_description p{
+font-size:14px;
+text-indent:45px;
+text-align:justify;
+line-height:25px;
+}
+
+.image_header{
+width:100%;padding:10px 10px 20px 20px;
+}
+
+.mydetails{
+width:500px;margin:0px auto;
+
+}
+.mydetails p{
+font-family: "PT Sans Narrow", Arial, sans-serif;
+line-height:30px;
+font-size:14px;
+text-align:justify;
+text-indent:45px;
+}
+
+.mydetails h1{
+color:<?=$theme["nBackColor"]?>;
+font-size:18px;
+line-height:55px;
+font-weight:500px;
+}
+
+.mydetails ul{
+font-size:14px;
+line-height:30px;
+margin-left:10px;
+
+}
+.mydetails ul li{
+margin-left:40px;
+
+}
+
+
+@media (max-width:568px){
+.image_description{
+width:90%;
+}
+.mydetails{
+width:100%;
+}
+
+}
+
+
+.mytestimonies{
+width:650px;
+padding:5px;
+}
+.mytestimonies h1{
+font-size:22px;
+margin-left:5px;
+line-height:-10px;
+margin-top: 0px;
+font-weight:500px;
+}
+.mytestimonies h3{
+font-size:18px;
+margin-left:5px;
+margin-top: 0px;
+font-weight:500px;
+}
+.mytestimonies p{
+font-family: "PT Sans Narrow", Arial, sans-serif;
+line-height:30px;
+font-size:14px;
+text-align:justify;
+text-indent:45px;
+}
+.mytestimonies-footer{
+font-family: "PT Sans Narrow", Arial, sans-serif;
+line-height:30px;
+font-size:14px;
+}
+.highlight{
+font-size:11px;
+}
+
+#youtubeLoader{
+background-repeat:no-repeat;
+background-position:center;
+}
+.mydetails img{
+width:100%;border-radius:15px;margin:5px;
+  -moz-transition: all 0.6s;  
+  -webkit-transition: all 0.6s;  
+  -ms-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.mydetails img:hover{
+ opacity:0.8;
+}
+
+
+
+
+
+
+

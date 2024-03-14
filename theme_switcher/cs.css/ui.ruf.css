@@ -1,0 +1,55 @@
+.ui-ruf-header {width:auto; height: 160px; margin: 0 auto;}
+
+.ui-ruf-menu {width: 630px; height: auto; margin: 0 auto;}
+.ui-ruf-menu ul {margin: 0 auto;}
+
+.ui-ruf-content {width: 99%; min-height:600px; height:auto; margin: 0 auto; padding: .2em .2em 0;}
+.ui-ruf-content div#content1, div#content2{padding: .2em .2em 0;}
+.ui-ruf-content1 {width:245px; height:auto; float:left; padding: .2em .2em 0;}
+.ui-ruf-content2 {position: relative; width:593px; height:auto; float:right; padding: .2em .2em 0;}
+    .ui-ruf-sub11 {width:239px; height:auto; margin: 0; padding: .2em .2em 0;}
+    .ui-ruf-sub12 {width:auto; height:100px; margin-top: 5px;}
+.ui-ruf-content3 {width:239px; height:180px; float:left; margin: 0px; margin-top: 70px; padding: .2em .2em 0;}
+    .ui-ruf-sub3 {width:239px; height:150px;}
+    .ui-ruf-sub3 li{list-style:none; margin-top:10px; text-indent:1em;}
+/*home*/
+
+    .ui-ruf-sub21 {width:585px; height:auto; float:left; margin: 0 auto; padding: .2em .2em 0;}
+    .ui-ruf-sub21 p{text-align:justify; text-indent: 4em; margin: 10px;}
+    .ui-ruf-sub22 {width:273px; height:auto; float:left; margin: 5px auto; padding: .2em .2em 0;}
+    .ui-ruf-sub22 p{text-align:justify; text-indent: 4em; margin: 10px;}  
+    .ui-ruf-sub23 {width:300px; height:auto; float:left; margin: 5px auto; margin-left:5px; padding: .2em .2em 0;}
+    .ui-ruf-sub23 p{text-align:justify; text-indent: 4em; margin: 10px;}  
+/*project*/    
+
+    .ui-ruf-subproject1 {width:585px; height:auto; min-height:600px; float:left; margin-bottom: 5px;padding: .2em .2em 0;}
+    .ui-ruf-subproject1 p{text-align:justify; margin: 10px;}
+    .ui-ruf-subproject1 h4{margin: 10px; text-align:left;}
+    .ui-ruf-subproject1 ul{margin-top:40px;}
+    .ui-ruf-subproject1 li{margin: 10px; margin-top:10px; }
+    .ui-ruf-subproject2 {width:585px; height:240px; float:left; margin-top: 5px; padding: .2em .2em 0;}  
+/*photo*/
+.ui-ruf-subphoto {width:585px; height:360px; float:left; margin:0; padding: .2em .2em 0;}
+
+/*mision*/    
+    .ui-ruf-submision1 {width:585px; height:auto; float:left; margin-bottom: 5px; padding: .2em .2em 0;}
+    .ui-ruf-submision1 p{text-align:justify; text-indent:4em; margin: 10px;}
+    .ui-ruf-submision1 ul{margin-top:40px;}
+    .ui-ruf-submision1 h4{text-align:center;}
+    .ui-ruf-submision1 li{list-style:none; text-align:justify; margin-right: 40px; margin-left:90px; margin-top:10px; text-indent:-4em;}
+     
+/*About Us*/    
+
+    .ui-ruf-subabout1 {width:585px; height:auto; min-height:600px; float:left; margin-bottom: 5px; padding: .2em .2em 0;}
+    .ui-ruf-subabout1 p{text-align:justify; text-indent: 4em; margin: 10px;}
+    .ui-ruf-subabout1 h4{text-align:center;}
+    .ui-ruf-subabout1 li{list-style:none; text-align:justify; margin: 10px; margin-left:50px; margin-top:10px; text-indent:-1em;}
+    
+/*home*/
+
+    .ui-ruf-subcontact1 {width:585px; height:auto; float:left; margin-bottom: 5px; padding: .2em .2em 0;}
+    .ui-ruf-subcontact1 p{text-align:justify; text-indent: 4em; margin: 10px;} 
+    .ui-ruf-subcontact1 h4{text-align:left; text-indent:2em;}
+    .ui-ruf-subcontact1 li{list-style:none; text-align:justify; margin: 10px; margin-left:50px; margin-top:10px; text-indent:2em;}
+    .ui-ruf-subcontact2 {width:585px; height:240px; float:left; margin: 0 auto; padding: .2em .2em 0;} 
+    

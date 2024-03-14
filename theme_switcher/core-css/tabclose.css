@@ -1,0 +1,4 @@
+.ui-tabs-nav li {position: absolute;}
+.ui-corner-top a span {padding-right: 10px;}
+.ui-tabs-close {display: none;position: absolute;top: 3px;right: 0px;z-index: 800;width: 16px;height: 14px;font-size: 10px; font-style: normal;cursor: pointer;}
+.ui-tabs-selected .ui-tabs-close {display: block;}

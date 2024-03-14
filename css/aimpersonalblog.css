@@ -1,0 +1,354 @@
+/* CSS Document */
+
+.center {
+    margin: auto;
+}
+
+body{
+font-family: "Arial";
+font-size:12px;
+background-color:#e1e1e1;
+}
+
+
+
+.ui-button {
+    animation-name: hoveroutbutton;
+    animation-duration: .4s;
+    background-color: #7707d7;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-corner:4px;
+    outline: none;
+}
+
+.ui-button:hover{
+    animation-name: hoverbutton;
+    animation-duration: .2s;
+    background-color:#540399;
+    color:#fff;
+}
+
+@keyframes hoverbutton{
+      from {background-color:#7707d7;}
+      to {background-color:#540399;color:#fff}
+}
+
+@keyframes hoveroutbutton{
+      from {background-color:#540399;}
+      to {background-color:#7707d7;color:#fff}
+}
+
+
+
+.ui-textbox {
+display: inline-block;
+padding: 4px 4px;
+    animation-name: lostfocustextbox;
+    animation-duration: .2s;
+border-color:#7707d7;
+border-width:1px;
+background-color:#fff;
+}
+
+.ui-textbox:focus {
+display: inline-block;
+    animation-name: focustextbox;
+    animation-duration: .2s;
+background-color:#f2f4c3;
+outline: none;
+
+}
+.watermark { color: #999; }
+
+
+@keyframes focustextbox{
+      from {background-color:#fff;}
+      to {background-color:#f2f4c3;}
+}
+
+@keyframes lostfocustextbox{
+      from {background-color:#f2f4c3;}
+      to {background-color:#fff;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-checkbox:not(:checked),
+.ui-checkbox:checked {
+  position: absolute;
+  left: -9999px;
+}
+.ui-checkbox:not(:checked) + label,
+.ui-checkbox:checked + label {
+  position: relative;
+  padding-left: 25px;
+}
+
+/* checkbox aspect */
+.ui-checkbox:not(:checked) + label:before,
+.ui-checkbox:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid #e5c7ff;
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+/* checked mark aspect */
+.ui-checkbox:not(:checked) + label:after,
+.ui-checkbox:checked + label:after {
+  content: 'iiii';
+  position: absolute;
+  top: 5px; left: 2px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #7f09e3;
+  background-color: #8009e6;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+.ui-checkbox:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.ui-checkbox:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+
+}
+/* disabled checkbox */
+.ui-checkbox:disabled:not(:checked) + label:before,
+.ui-checkbox:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+  color:#7f09e3;
+}
+.ui-checkbox:disabled:checked + label:after {
+  color: #7f09e3;
+}
+.ui-checkbox:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+.ui-checkbox:checked:focus + label:before,
+.ui-checkbox:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+cursor: pointer;
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 1px solid #0000ff!important;
+
+}
+
+
+/* The Modal (background) */
+.ui-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: black; /* Fallback color */
+    background-color: rgba(0,0,0,0.75); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.ui-modal-content {
+    border-radius:8px;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #ff0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ui-modal-header {
+    padding: 2px 8px;
+    background-color: #8008e6;
+    color: white;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+}
+
+.ui-modal-body {padding: 2px 16px;background-color: #fff;border-radius: 8px;}
+
+.ui-modal-footer {
+    padding: 8px 16px;
+    background-color: #e1e1e1;
+    color: white;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+}
+
+
+
+
+
+
+
+/* The Modal (background) */
+.ui-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: black; /* Fallback color */
+    background-color: rgba(0,0,0,0.75); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.ui-modal-content {
+    border-radius:8px;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #ff0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ui-modal-header {
+    padding: 2px 8px;
+    background-color: #8008e6;
+    color: white;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+}
+
+.ui-modal-body {padding: 2px 16px;background-color: #fff;border-radius: 8px;}
+
+.ui-modal-footer {
+    padding: 8px 16px;
+    background-color: #e1e1e1;
+    color: white;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-corner-all{border-radius: 5px;}
+.ui-corner-left{border-top-left-radius:8px;border-bottom-left-radius:8px;}
+.ui-corner-right{border-top-right-radius:8px;border-bottom-right-radius:8px;}
+.ui-corner-top{border-top-left-radius:8px;border-top-right-radius:8px;}
+.ui-corner-bottom{border-bottom-left-radius:8px;border-bottom-right-radius:8px;}
